@@ -3,7 +3,37 @@ import React from 'react'
 export const Main = () => {
   return (
     <div>
-      <div class="container-fluid">
+      <div class="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="text-left">
+              <p>Hey, my name is Tony Spark. I am a hypnotist.</p>
+              <p>Welcome to my page. I am glad to fill your needs</p>
+              <ul>
+                <li>
+                  <a href="http://">
+                    <img src="./img/youtube.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://">
+                    <img src="./img/instagram.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <img src="./img/main.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            <p id="help">What I can help you with ?</p>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid main-block">
         <div class="row">
           <div class="col">
             <div class="wrap-div">
