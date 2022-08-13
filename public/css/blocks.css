@@ -1,0 +1,33 @@
+.title-course {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+
+.wrap-div {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding-bottom: 15px;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+.button-more {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  box-shadow: 0 14px 28px rgba(201, 132, 132, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px 60px;
+  font-size: 16px !important;
+}
+.button-more:hover {
+  background-color: #f32323;
+}
+
+.detail-course-description-text {
+  padding: 0px 15px 15px 15px;
+}

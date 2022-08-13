@@ -1,0 +1,16 @@
+/* fonts import */
+@import url("http://fonts.cdnfonts.com/css/gotham-pro");
+/* pallete of colors from google ui */
+@import url("palette.css");
+/* common css setiing and style */
+@import url("common.css");
+/* header and footer */
+@import url("header.css");
+@import url("footer.css");
+/* main pages */
+@import url("main.css");
+@import url("teach.css");
+@import url("course-detail.css");
+/* little blocks */
+@import url("blocks.css");
+@import url("email.css");

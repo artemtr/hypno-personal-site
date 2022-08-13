@@ -1,0 +1,25 @@
+#course-detail {
+  padding: 25px 15px;
+}
+
+#course-detail p {
+  font-size: 17px;
+}
+.course-landing-text h2 {
+  color: #cb4335;
+  padding: 20px 0px;
+  padding-left: 65px;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+.course-landing-text h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background: url("./img/loudspeaker.png") no-repeat center;
+  background-size: contain;
+}

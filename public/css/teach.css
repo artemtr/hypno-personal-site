@@ -1,0 +1,14 @@
+#linksBlogHeader ul {
+  display: table;
+  margin: 0 auto !important;
+}
+#linksBlogHeader li {
+  float: left;
+}
+
+#linksBlogHeader a {
+  display: block;
+  font-size: 14px;
+  padding: 20px 15px;
+  color: black;
+}

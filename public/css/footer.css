@@ -1,0 +1,16 @@
+footer {
+  background-color: #212121;
+}
+footer ul {
+  display: table;
+  margin: 0 auto !important;
+}
+footer li {
+  float: left;
+  margin: 5px;
+}
+footer a {
+  font-family: Helvetica, sans-serif;
+  color: #bdbdbd;
+  font-size: 14px;
+}

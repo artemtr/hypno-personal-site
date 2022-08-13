@@ -1,0 +1,18 @@
+header {
+  background-color: white;
+  height: 25px;
+  box-shadow: #757575 0px 0px 2px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.main-title-block {
+  margin-top: 22px;
+  position: relative;
+  z-index: 1;
+}
+.main-title-block h1 {
+  color: white;
+}
